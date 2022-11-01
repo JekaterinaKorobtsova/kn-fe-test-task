@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# FRONT-END INTERNSHIP TEST TASK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task description
 
-## Available Scripts
+_Task:_
 
-In the project directory, you can run:
+- Create shipments CRUD page;
+- Should load data from provided API;
+- If API is not available - should use local file;
+- Data should be displayed in generated table
+- Table rows should have **details** and **delete** buttons
+- Click on **details** should open panel with details
+- Editing details in panel should update an entry
+- Click on **delete** should delete an entry
 
-### `npm start`
+## Solution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was created with **React.js** using following libraries:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- axios;
+- react-modal;
+- react-router;
+- react-icons.
 
-### `npm test`
+**_Shipments table_**
+![Table](./img/Table.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**_Shipment details panel_**
+![ShipmentTable](./img/ModalTable.png)
 
-### `npm run build`
+## Improvements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_To do list for project improvement:_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- add columns sorting;
+- use portals to render modal window as a separate element, not as an element of the main body;
+- consider using style template from [Creative Tim](https://www.creative-tim.com/);
+- consider using [MUI table](https://mui.com/material-ui/react-table/) or [Bootstrap](https://getbootstrap.com/) ;
+- add tests.

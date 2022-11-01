@@ -1,0 +1,41 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #696969;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    max-width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 40px;
+    margin: 20px;
+  }
+
+  input {
+      border: 2px solid grey;
+      height: 50px;
+      width: 100%;
+      background-color: #F0F8FF;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      opacity: 0.6;
+  }
+
+  .close-button {
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+
